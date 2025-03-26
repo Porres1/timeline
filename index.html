@@ -1,243 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <!-- Se agrega tu mención en el título del documento -->
-  <title>Línea de Tiempo de los Conflictos Bélicos - Por Rodrigo Porres 19001048</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-    }
-    .timeline {
-      max-width: 800px;
-      margin: 0 auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .timeline h1 {
-      text-align: center;
-      margin-bottom: 5px;
-    }
-    /* Se agrega un estilo para tu subtítulo */
-    .timeline h2 {
-      text-align: center;
-      margin-top: 0;
-      margin-bottom: 30px;
-      font-weight: normal;
-      color: #555;
-    }
-    details {
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      background: #fafafa;
-      padding: 10px;
-    }
-    summary {
-      font-weight: bold;
-      cursor: pointer;
-      padding: 5px;
-      font-size: 1.1em;
-    }
-    .content-section {
-      padding-left: 20px;
-      margin-top: 10px;
-    }
-    .content-section h3 {
-      margin-bottom: 5px;
-      color: #333;
-    }
-    .content-section p, 
-    .content-section ul {
-      margin-top: 0;
-      margin-bottom: 10px;
-      line-height: 1.6;
-    }
-    .content-section ul {
-      list-style: disc;
-      padding-left: 20px;
-    }
-    .final-section {
-      margin-top: 30px;
-      padding: 15px;
-      background: #e8e8e8;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Redimensionador de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .upload-box {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .hidden {
+            display: none;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        #preview {
+            max-width: 100%;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-  <div class="timeline">
-    <!-- Título principal -->
-    <h1>Línea de Tiempo de los Conflictos Bélicos</h1>
-    <!-- Subtítulo con tu nombre y número de carnet -->
-    <h2>Por Rodrigo Porres 19001048</h2>
-    
-    <!-- Primera Guerra Mundial -->
-    <details>
-      <summary>Primera Guerra Mundial (1914-1918)</summary>
-      <div class="content-section">
-        <h3>Antes:</h3>
-        <p>Europa estaba dominada por grandes imperios (Alemán, Austrohúngaro, Otomano y Ruso). Había una creciente rivalidad entre potencias coloniales y tensiones nacionalistas en aumento.</p>
-        <h3>Durante:</h3>
-        <ul>
-          <li>Se formaron dos bloques enfrentados:
-            <ul>
-              <li><strong>Triple Entente</strong> (Francia, Reino Unido, Rusia)</li>
-              <li><strong>Potencias Centrales</strong> (Alemania, Austria-Hungría, Imperio Otomano)</li>
-            </ul>
-          </li>
-          <li>Devastación a gran escala en Europa y uso de nuevas tecnologías bélicas.</li>
-        </ul>
-        <h3>Después:</h3>
-        <ul>
-          <li>Desaparición de los imperios Austrohúngaro, Otomano, Alemán y Ruso.</li>
-          <li>Creación de nuevos estados en Europa Central y del Este.</li>
-          <li>Firma del <strong>Tratado de Versalles (1919)</strong> imponiendo sanciones severas a Alemania.</li>
-          <li>Creación de la Sociedad de Naciones (precursor de la ONU).</li>
-        </ul>
-      </div>
-    </details>
-    
-    <!-- Segunda Guerra Mundial -->
-    <details>
-      <summary>Segunda Guerra Mundial (1939-1945)</summary>
-      <div class="content-section">
-        <h3>Antes:</h3>
-        <ul>
-          <li>Crisis económica en Alemania por las sanciones del Tratado de Versalles.</li>
-          <li>Expansión del fascismo en Alemania e Italia, y del militarismo en Japón.</li>
-          <li>Pacto de Múnich (1938) y anexión de Austria por Alemania.</li>
-        </ul>
-        <h3>Durante:</h3>
-        <ul>
-          <li>Alemania invade Polonia (1939), iniciando la guerra.</li>
-          <li>Conflicto global con frentes en Europa, África, Asia y el Pacífico.</li>
-          <li>Bombardeo atómico en Hiroshima y Nagasaki en 1945.</li>
-        </ul>
-        <h3>Después:</h3>
-        <ul>
-          <li>Creación de la <strong>ONU (1945)</strong> para prevenir futuras guerras.</li>
-          <li>División de Europa entre bloques comunista y capitalista.</li>
-          <li>Inicio de la Guerra Fría.</li>
-        </ul>
-      </div>
-    </details>
-    
-    <!-- Guerra Fría -->
-    <details>
-      <summary>Guerra Fría (1947-1991)</summary>
-      <div class="content-section">
-        <h3>Antes:</h3>
-        <ul>
-          <li>EE.UU. y la URSS emergen como superpotencias tras la Segunda Guerra Mundial.</li>
-          <li>Ideologías enfrentadas: capitalismo vs. comunismo.</li>
-        </ul>
-        <h3>Durante:</h3>
-        <ul>
-          <li>Conflictos indirectos: Guerra de Corea (1950-1953) y Guerra de Vietnam (1955-1975).</li>
-          <li>Crisis de los misiles en Cuba (1962).</li>
-          <li>Carrera armamentista y espacial.</li>
-        </ul>
-        <h3>Después:</h3>
-        <ul>
-          <li><strong>Caída del Muro de Berlín (1989)</strong>.</li>
-          <li><strong>Disolución de la URSS (1991)</strong>.</li>
-          <li>EE.UU. queda como la única superpotencia.</li>
-        </ul>
-      </div>
-    </details>
-    
-    <!-- Guerra del Golfo -->
-    <details>
-      <summary>Guerra del Golfo (1990-1991)</summary>
-      <div class="content-section">
-        <h3>Antes:</h3>
-        <ul>
-          <li>Irak invade Kuwait por el control petrolero.</li>
-        </ul>
-        <h3>Durante:</h3>
-        <ul>
-          <li>Coalición internacional liderada por EE.UU. lanza la operación "Tormenta del Desierto".</li>
-          <li>Irak es derrotado en pocas semanas.</li>
-        </ul>
-        <h3>Después:</h3>
-        <ul>
-          <li>Sanciones severas a Irak.</li>
-          <li>Crecimiento de tensiones en Medio Oriente.</li>
-        </ul>
-      </div>
-    </details>
-    
-    <!-- Guerra contra el Terrorismo -->
-    <details>
-      <summary>Guerra contra el Terrorismo (2001-presente)</summary>
-      <div class="content-section">
-        <h3>Antes:</h3>
-        <ul>
-          <li><strong>Ataques del 11 de septiembre de 2001</strong>.</li>
-        </ul>
-        <h3>Durante:</h3>
-        <ul>
-          <li>Invasiones de Afganistán (2001) e Irak (2003).</li>
-          <li>Surgimiento del <strong>Estado Islámico (ISIS)</strong> en 2014.</li>
-          <li>Expansión de operaciones de contraterrorismo global.</li>
-        </ul>
-        <h3>Después:</h3>
-        <ul>
-          <li><strong>Retiro de EE.UU. de Afganistán en 2021</strong>.</li>
-          <li>Expansión de actores no estatales en conflictos.</li>
-          <li>El terrorismo sigue siendo una amenaza global.</li>
-        </ul>
-      </div>
-    </details>
-    
-    <!-- Guerra en Ucrania -->
-    <details>
-      <summary>Guerra en Ucrania (2022-presente)</summary>
-      <div class="content-section">
-        <h3>Antes:</h3>
-        <ul>
-          <li>Desde 2014, Rusia anexa Crimea.</li>
-          <li>Tensiones crecientes entre Rusia y Ucrania.</li>
-        </ul>
-        <h3>Durante:</h3>
-        <ul>
-          <li><strong>Rusia invade Ucrania el 24 de febrero de 2022</strong>.</li>
-          <li>Sanciones económicas severas contra Rusia.</li>
-          <li>EE.UU. y la OTAN apoyan a Ucrania.</li>
-        </ul>
-        <h3>Después:</h3>
-        <ul>
-          <li><strong>Transformación del orden mundial, con bloques económicos reconfigurándose</strong>.</li>
-          <li>Crecimiento de la influencia de China en la política global.</li>
-          <li>Militarización creciente en Europa.</li>
-        </ul>
-      </div>
-    </details>
-    
-    <!-- Sección final: Impacto y Conclusión -->
-    <div class="final-section">
-      <h2>Impacto Geopolítico Global</h2>
-      <ul>
-        <li><strong>Primera Guerra Mundial:</strong> Fin de los imperios y surgimiento de nuevos estados.</li>
-        <li><strong>Segunda Guerra Mundial:</strong> Establecimiento de una bipolaridad global entre EE.UU. y la URSS.</li>
-        <li><strong>Guerra Fría:</strong> Consolidación de alianzas como la OTAN y el Pacto de Varsovia.</li>
-        <li><strong>Guerra del Golfo:</strong> Dominio estratégico de EE.UU. en Medio Oriente.</li>
-        <li><strong>Guerra contra el Terrorismo:</strong> Incremento de conflictos asimétricos.</li>
-        <li><strong>Guerra en Ucrania:</strong> Reconfiguración del equilibrio de poder mundial.</li>
-      </ul>
+    <h1>Redimensionador de Imágenes</h1>
+    <div class="upload-box">
+        <input type="file" id="imageInput" accept="image/*">
+        <p>Arrastra una imagen o haz clic para seleccionar</p>
     </div>
-    
-    <div class="final-section">
-      <h2>Conclusión</h2>
-      <p>Los conflictos bélicos han transformado radicalmente la geopolítica global, alterando alianzas, economías y la distribución del poder a nivel internacional. Desde la desaparición de imperios tras la Primera Guerra Mundial hasta el actual conflicto en Ucrania, la historia demuestra que la guerra sigue siendo un factor decisivo en la evolución del sistema internacional.</p>
-    </div>
-    
-  </div>
+    <button id="resizeButton" class="hidden">Redimensionar a 2000x1333 (Max 300KB)</button>
+    <img id="preview" class="hidden">
+    <a id="downloadLink" class="hidden"><button>Descargar Imagen</button></a>
+
+    <script>
+        const imageInput = document.getElementById('imageInput');
+        const resizeButton = document.getElementById('resizeButton');
+        const preview = document.getElementById('preview');
+        const downloadLink = document.getElementById('downloadLink');
+
+        let originalImage = null;
+
+        imageInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    originalImage = new Image();
+                    originalImage.src = e.target.result;
+                    originalImage.onload = function() {
+                        preview.src = e.target.result;
+                        preview.classList.remove('hidden');
+                        resizeButton.classList.remove('hidden');
+                    }
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        resizeButton.addEventListener('click', async function() {
+            if (!originalImage) return;
+
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Tamaño objetivo
+            canvas.width = 2000;
+            canvas.height = 1333;
+            
+            // Dibujar imagen redimensionada
+            ctx.drawImage(originalImage, 0, 0, canvas.width, canvas.height);
+            
+            // Comprimir a JPEG con calidad ajustable
+            let quality = 0.9;
+            let blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', quality));
+            
+            // Ajustar calidad para que sea menor a 300KB
+            while (blob.size > 300000 && quality > 0.1) {
+                quality -= 0.1;
+                blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', quality));
+            }
+
+            // Crear enlace de descarga
+            const url = URL.createObjectURL(blob);
+            downloadLink.href = url;
+            downloadLink.download = `imagen-redimensionada-${Date.now()}.jpg`;
+            downloadLink.classList.remove('hidden');
+            
+            // Limpiar vista previa
+            preview.classList.add('hidden');
+            resizeButton.classList.add('hidden');
+        });
+    </script>
 </body>
 </html>
